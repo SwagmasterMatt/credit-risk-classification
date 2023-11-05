@@ -30,7 +30,7 @@ The performance of the machine learning models is summarized as follows:
 
 
 
-*Machine Learning Model 2 (With Oversampling):
+* Machine Learning Model 2 (With Oversampling):
   * Balanced Accuracy Score: Approximately 0.939
   * Confusion Matrix: [11849 True Negatives, 1161 False Positives; 4 False Negatives, 6151 True Positives]
   * Classification Report:

@@ -30,7 +30,7 @@ The performance of the machine learning models is summarized as follows:
 
 
 
-*Machine Learning Model 2 (With Oversampling):
+* Machine Learning Model 2 (With Oversampling):
   * Balanced Accuracy Score: Approximately 0.939
   * Confusion Matrix: [11849 True Negatives, 1161 False Positives; 4 False Negatives, 6151 True Positives]
   * Classification Report:
@@ -54,7 +54,7 @@ Summarize the results of the machine learning models, and include a recommendati
 * Model 2: After accounting for the oversampling the results are much more balanced with the recall increasing to 99% for Class 1. The precision for class 1 has gone down by 1%. For a business sense this means that the model is likely to classify a healthy loan as high risk but will very rarely classify a high risk loan as healthy. This is a desireable tradeoff in a "better safe than sorry" scenario. The capital implications is "profit lost due to incorrect classification" versus "debt gained via default due to underclassifcation"
 
     There is little to no change in the predictions for class 0 after utilizing the oversampling which means we maintain our high performing predictions of the majority class.
-    
+
 ## Recommendation 
 
 * Model 2 is going to provide much better incentive for the business and will also mitigate risk. While we had a slight increase in false positve (healthy classified as high risk), we generated a tradeoff of 54 less false negatives (high risk loans classified as healthy).
