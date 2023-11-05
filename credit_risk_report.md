@@ -1,5 +1,3 @@
-# credit-risk-classification
-
 # Module 12 Report
 
 ## Overview of the Analysis
@@ -59,3 +57,5 @@ There is little to no change in the predictions for class 0 after utilizing the 
 * Over the entire data set of 77536, only 13 would have been False Negatives with a total default risk sum of $129500 - This value can be directly compared to cost saving measures after implementing the model. This number serves purely as a theoretical gesture since in a real scenario the business would not know the difference in a false versus true identification without further investigation.
 
 * Further studies should be implemented by the business to compare its own manual accuracy rate to determine which loans were actually defaulted on - it is possible that the model is more accurate than human evaluation of the risk and false positives are actually true positives.
+
+
