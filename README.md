@@ -53,8 +53,11 @@ Summarize the results of the machine learning models, and include a recommendati
 
 * Model 2: After accounting for the oversampling the results are much more balanced with the recall increasing to 99% for Class 1. The precision for class 1 has gone down by 1%. For a business sense this means that the model is likely to classify a healthy loan as high risk but will very rarely classify a high risk loan as healthy. This is a desireable tradeoff in a "better safe than sorry" scenario. The capital implications is "profit lost due to incorrect classification" versus "debt gained via default due to underclassifcation"
 
+
     There is little to no change in the predictions for class 0 after utilizing the oversampling which means we maintain our high performing predictions of the majority class.
-* Recommendation : Model 2 is going to provide much better incentive for the business and will also mitigate risk. While we had a slight increase in false positve (healthy classified as high risk), we generated a tradeoff of 54 less false negatives (high risk loans classified as healthy).
+## Recommendation 
+
+* Model 2 is going to provide much better incentive for the business and will also mitigate risk. While we had a slight increase in false positve (healthy classified as high risk), we generated a tradeoff of 54 less false negatives (high risk loans classified as healthy).
 
 * Over the entire data set of 77536, only 13 would have been False Negatives with a total default risk sum of $129500 - This value can be directly compared to cost saving measures after implementing the model. This number serves purely as a theoretical gesture since in a real scenario the business would not know the difference in a false versus true identification without further investigation.
 
